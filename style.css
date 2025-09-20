@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0 0 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #0078ff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #0078ff;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #005fcc;
+  transform: scale(1.05);
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+
+/* Projects */
+#projects {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #f9fbfd;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  background: #eef6ff;
+  transform: translateY(-5px);
+}
+
+/* Resume */
+#resume {
+  text-align: center;
+}
+
+/* Contact */
+#contact {
+  background: linear-gradient(135deg, #00c6ff, #0078ff);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  padding: 40px 20px;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
